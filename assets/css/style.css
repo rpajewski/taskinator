@@ -3,15 +3,15 @@
 }
 
 :root {
-  --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
-  --grey: #333;
+  --primary: #ed6663;
+  --secondary: #43658b;
+  --tertiary: #4e89ae;
+  --grey: #ffa372;
   font-size: 62.5%;
 }
 
 body {
-  background: #ededed;
+  background: #f4f4f4;
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -98,7 +98,7 @@ footer {
   list-style: none;
   padding: 15px;
   height: calc(100% - 50px);
-  background: rgb(196, 196, 196);
+  background: rgba(196, 196, 196, 0.75);
   border-radius: 12px;
   border: 2px solid var(--grey);
 }
